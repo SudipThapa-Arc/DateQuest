@@ -1,3 +1,4 @@
-✨[doyouwannagooutwithme.com](http://doyouwannagooutwithme.com) 
+https://gooutwithme.freewebhostmost.com
 
-A website to invite your lover for a date 🥰
+A website to askout the tech nerd for a date. 
+
