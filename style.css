@@ -73,6 +73,7 @@ body {
         padding: 10px 18px;
         font-size: 12px;
     }
+
 }
 
 @media only screen and (max-width: 414px) and (max-height: 736px) {
@@ -91,5 +92,52 @@ body {
     .btn {
         padding: 15px 25px;
         font-size: 14px;
+    }
+}
+
+/* Additional responsive breakpoints */
+@media only screen and (max-width: 280px) {
+    .header_text {
+        font-size: 18px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 11px;
+    }
+    
+    img {
+        height: 50vh;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    .header_text {
+        font-size: 35px;
+    }
+    
+    img {
+        height: 55vh;
+        width: auto;
+    }
+    
+    .btn {
+        padding: 12px 28px;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-height: 500px) {
+    body {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    img {
+        height: 45vh;
+    }
+    
+    .header_text {
+        margin-top: 0;
     }
 }
